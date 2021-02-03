@@ -80,12 +80,12 @@ $('#del').on('click',function(){
    url:'./deletetb.php', //送信先
    data:{}
    })
-   // Ajax通信が成功した時
+   // 通信成功
    .done( function(data) {
    console.log('通信成功');
    console.log(data);
    })
-   // Ajax通信が失敗した時
+   // 通信失敗
    .fail( function(data) {
    console.log('通信失敗');
    console.log(data);
@@ -95,7 +95,7 @@ $('#del').on('click',function(){
  });
 
 
-}); //END
+}); //終了
 </script>
 
 </body>
